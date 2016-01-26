@@ -1,0 +1,20 @@
+---
+dependencies:
+  - { role: openapphack.java }
+
+galaxy_info:
+  author: openapphack
+  description: Tomcat 6 for Debian/Ubuntu.
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+    - development
+    - web
